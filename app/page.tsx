@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex items-center justify-center gap-4 mb-8">
             <Sword className="w-16 h-16 text-amber-500" />
             <h1 className="text-6xl font-bold bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 bg-clip-text text-transparent">
-              QuestTime
+              Party Up
             </h1>
             <Sparkles className="w-16 h-16 text-amber-500" />
           </div>

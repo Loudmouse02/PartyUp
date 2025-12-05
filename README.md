@@ -1,4 +1,4 @@
-# QuestTime - D&D Campaign Scheduler
+# Party Up - D&D Campaign Scheduler
 
 A modern web application for scheduling D&D campaigns with timezone-aware session planning and player voting.
 

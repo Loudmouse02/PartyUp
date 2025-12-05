@@ -1,6 +1,6 @@
 import { Campaign } from "@/types";
 
-const STORAGE_KEY = "questtime_campaigns";
+const STORAGE_KEY = "partyup_campaigns";
 
 export function saveCampaign(campaign: Campaign): void {
   const campaigns = getAllCampaigns();

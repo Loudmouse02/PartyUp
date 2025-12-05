@@ -91,7 +91,7 @@ export default function VotePage() {
         setCampaign(transformedCampaign);
 
         // Load existing player from localStorage if they've voted before
-        const savedPlayerName = localStorage.getItem(`questtime_player_${campaignId}`);
+        const savedPlayerName = localStorage.getItem(`partyup_player_${campaignId}`);
         if (savedPlayerName) {
           setPlayerName(savedPlayerName);
           
@@ -138,7 +138,7 @@ export default function VotePage() {
     };
 
     setCurrentPlayer(player);
-    localStorage.setItem(`questtime_player_${campaignId}`, playerName);
+    localStorage.setItem(`partyup_player_${campaignId}`, playerName);
 
     // Check if player has existing votes and load them
     const { data: voteData, error: voteError } = await supabase

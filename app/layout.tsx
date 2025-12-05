@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "QuestTime - D&D Campaign Scheduler",
+  title: "Party Up",
   description: "Schedule your D&D sessions with ease",
 };
 
